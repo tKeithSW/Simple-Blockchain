@@ -1,0 +1,20 @@
+//JSON Format
+{
+    wallet{}
+
+    blockchain[
+        Block{
+            transactions[
+                Transaction{
+                    inputs[
+                        TransactionInput{}
+                    ]
+
+                    outputs[
+                        TransactionOutput{}
+                    ]
+                }
+            ]
+        }
+    ]
+}
